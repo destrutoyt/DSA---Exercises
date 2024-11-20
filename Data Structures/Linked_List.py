@@ -52,6 +52,7 @@ class LinkedList:
                 return current_node.data
             else:
                 current_index += 1
+                
     def erase(self, index):
         if index >= self.length():
             print("Error: 'Get' Index out of range!")
