@@ -36,7 +36,6 @@ def mergeSort(array):
         
         # If there are no more elements to compare (either left to right or right to left), we will append remaining elements
         while i < len(left_array):
-            print(array)
             array[k] = left_array[i]
             i += 1
             k += 1
@@ -44,7 +43,6 @@ def mergeSort(array):
             array[k] = right_array[j]
             j += 1
             k += 1
-            print(array)
 
 
     return array
